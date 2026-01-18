@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -36,7 +36,7 @@ const BlogPage: React.FC = () => (
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-brand-black text-zinc-100 flex flex-col overflow-x-hidden">
         <Navbar />
         <div className="flex-grow max-w-6xl mx-auto px-3 sm:px-4 w-full">
