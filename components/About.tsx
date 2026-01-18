@@ -26,11 +26,11 @@ const About: React.FC = () => {
             </div>
             <div className="flex justify-between border-b border-brand-gray pb-1">
               <span>Current City</span>
-              <span className="text-zinc-300">Pune, IN</span>
+              <span className="text-zinc-300">Kolhapur, IN</span>
             </div>
             <div className="flex justify-between">
               <span>GPA Equivalent</span>
-              <span className="text-zinc-300">Strong/Distinction</span>
+              <span className="text-zinc-300">Strong/First Class</span>
             </div>
           </div>
         </div>
