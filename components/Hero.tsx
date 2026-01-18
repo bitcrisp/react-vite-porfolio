@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           Available for Internships & Freelance
         </div>
 
-        <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight">
           I'm <span className="text-brand-orange">Vikram Kamble.</span>
         </h1>
         <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-zinc-400">

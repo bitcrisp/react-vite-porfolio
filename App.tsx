@@ -11,7 +11,7 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 
 const HomePage: React.FC = () => (
-  <main className="space-y-16 md:space-y-24 pb-12 md:pb-20">
+  <main className="space-y-12 sm:space-y-16 md:space-y-24 pb-12 md:pb-20">
     <Hero />
     <section id="about">
       <About />
